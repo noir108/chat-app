@@ -16,22 +16,52 @@ index
   width: calc(100vw - 300px);
 }
 
+
+
+
 /****************************************
 index-side
 *****************************************/
 .side-header {
+  background-color: #253141;
   height: 100px;
   padding: 0 20px;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.side-header-name a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+.create-room a {
+  font-size: 10px;
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+
 
 .side-body {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
-
+  overflow: scroll;
 }
 
+.room {
+  margin: 20px 0 40px;
+}
+
+.side-room-name a {
+  text-decoration: none;
+  color: white;
+}
 
 /****************************************
 index-main
