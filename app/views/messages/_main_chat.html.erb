@@ -1,3 +1,57 @@
-<div class="main-header"></div>
-<div class="main-body"></div>
-<div class="main-footer"></div>
+<div class="main-header">
+  <div class='left-header'>
+    <div class='main-roomname'>
+      hogefuga
+    </div>
+  </div>
+  <div class='right-header'>
+    <div class='room-fin'>
+      <%= link_to 'チャットを終了する' %>
+    </div>
+  </div>
+</div>
+
+<div class="main-body">
+  <div class='message'>
+    <div class="top-message">
+      <div class="message-name">
+        Tom
+      </div>
+      <div class="message-date">
+        2020/3/31(wed) 12:43:30
+      </div>
+    </div>
+    <div class="bottom-message">
+      <div class="message-content">
+        おはよう
+      </div>
+    </div>
+  </div>
+
+  <div class='message'>
+    <div class="top-message">
+      <div class="message-name">
+        Tom
+      </div>
+      <div class="message-date">
+        2020/3/31(wed) 12:43:30
+      </div>
+    </div>
+    <div class="bottom-message">
+      <div class="message-content">
+        おはよう
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main-footer">
+  <div class="form-input">
+    <input class="form-message" placeholder="type a message">
+    <label class="form-image">
+      <span class="image-file">画像</span>
+      <input type="file" class="hidden">
+    </label>
+  </div>
+  <input class="form-submit" type="submit" value="送信">
+</div>
